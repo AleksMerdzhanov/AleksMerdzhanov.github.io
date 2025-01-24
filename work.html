@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Externe CSS en tekencodering -->
+    <link rel="stylesheet" href="portfolio.css"> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome voor iconen -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Pagina container -->
+    <div class="conteiner">
+        <!-- Navigatiebalk -->
+        <nav class="navbar">
+            <div class="navbar-brand"><a href="/"></a></div>
+            <div class="navbar-menu">
+                <ul class="menu" id="myLinks">
+                    <li><a class="link" href="index.html">Home</a></li>
+                    <li><a href="AboutMe.html">About me</a></li>
+                    <li><a href="work.html">Work</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <!-- Mobiel hamburgermenu -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+    </div>
+
+    <!-- Project sectie -->
+    <div class="project">
+        <h1>My projects</h1>
+    </div>
+
+    <!-- Werksectie met projecten -->
+    <div class="work">
+        <!-- Project 1 -->
+        <div class="block">
+            <img src="imgs/Pinkgoose.png" alt="Pinkgoose">
+            <p>PinkGoose</p>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="block">
+            <img src="imgs/Lingo.png" alt="Lingo">
+            <p>Lingo</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

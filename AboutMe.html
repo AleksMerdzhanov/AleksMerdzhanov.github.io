@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Externe CSS en tekencodering -->
+    <link rel="stylesheet" href="portfolio.css"> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Font Awesome voor iconen -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+
+<body>
+    <!-- Pagina-inhoud -->
+    <div class="conteiner">
+        <!-- Navigatiebalk -->
+        <nav class="navbar">
+            <div class="navbar-brand"><a href="/"></a></div>
+            <div class="navbar-menu">
+                <ul class="menu" id="myLinks">
+                    <li><a class="link" href="index.html">Home</a></li>
+                    <li><a href="AboutMe.html">About me</a></li>
+                    <li><a href="work.html">Work</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <!-- Hamburger menu voor mobiele weergave -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+    </div>
+
+    <!-- Sectie voor de About Me kop -->
+    <div class="heading">
+        <div class="lines">
+            <div class="line-paars"></div>
+            <div class="line-grijs"></div>
+        </div>
+        <h1>About Me</h1>
+    </div>
+
+    <!-- Inhoudelijke tekst over jezelf -->
+    <div>
+        <p>
+            My name is Aleks Remziev, and I am a student at Roc Nijmegen, pursuing a degree in Software Development. I
+            am an aspiring Software Developer. <br>My hobbies include playing football: I train twice a week and play
+            matches twice a week. <br> My goal is to learn everything necessary about software development and graduate with
+            my diploma.
+        </p>
+    </div>
+
+    <!-- Vaardigheden sectie -->
+    <section>
+        <div class="space"></div>
+        <h2>Stuff I Know:</h2>
+        <div class="icons">
+            <img src="imgs/html.png" alt="HTML logo">
+            <img src="imgs/css.png" alt="CSS logo">
+            <img src="imgs/javaScript.png" alt="JavaScript logo">
+        </div>
+    </section>
+
+    <!-- Foto van jezelf -->
+    <div class="aleks">
+        <img src="imgs/thegoat.jpg" alt="Foto van mezelf">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
